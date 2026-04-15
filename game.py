@@ -36,7 +36,7 @@ class JamestownGame:
 
             choice = input("> ")
             self.days += 7
-            self.distance_to_virginia -= random.randont(161, 483)
+            self.distance_to_virginia -= random.randint(161, 483)
 
             if choice == "1":
                 self.food -= 5
